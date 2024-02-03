@@ -9,32 +9,33 @@ namespace Collection_Framework
     {
         static void Main(string[] args)
         {
-            Queue queue = new Queue();
-            queue.Enqueue(1);
-            queue.Enqueue("sunil");
-            queue.Enqueue(3);
-            queue.Enqueue("kumar");
-            queue.Enqueue("nallam");
+            Stack stack = new Stack();
+            stack.Push(1);
+            stack.Push("sunil");
+            stack.Push(2);
+            stack.Push("kumar");
+            stack.Push(3);
+            stack.Push("nallam");
             Console.WriteLine("The elements present after enqueue: ");
-            foreach (var item in queue)
+            foreach (var item in stack)
             {      
                 Console.WriteLine(item);
             }
-            queue.Dequeue();
+            stack.Pop();
             Console.WriteLine("The elements present after dequeue: ");
-            foreach (var item in queue)
+            foreach (var item in stack)
             {
                 Console.WriteLine(item);
             }
-            queue.Peek();
-            Console.WriteLine("The elements present after peek is : {0} ",queue.Peek());
-           if(queue.Contains("sunil") == true)
+            stack.Peek();
+            Console.WriteLine("The elements present after peek is : {0} ",stack.Peek());
+           if(stack.Contains("sunil") == true)
             {
                 Console.WriteLine("Element available in the queue");
             }
             
-            queue.Clear();
-            Console.WriteLine("The elements present  after clear: {0} ",queue.Count);
+            stack.Clear();
+            Console.WriteLine("The elements present  after clear: {0} ",stack.Count);
             
             Console.ReadLine();
         }
