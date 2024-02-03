@@ -1,0 +1,57 @@
+Data Structures
+    1)linear
+	.arrays - uses stack memory 
+	.linkedlist
+	.stack
+	.queue
+    2)non-linear
+	.tree
+	.graph
+	.trie
+	.bitmaps
+algorithms
+   .brute force
+	.does not contain any time complexity
+   .d&c
+	1)merge sort
+	2)binary search
+   .greedy
+	.optimal aproach(best time complexity)
+   .recursion
+	.used to minimize the code by running the function again and again
+   .dynamic programming
+   .back tracking
+   .hashing
+   .randomized
+   .searching
+   .sorting
+Time Complexity
+        1)big O(worst case)
+	2)theta (average case)
+	3)omega(best case)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> List <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ 
+list<datatype> listname=new list<datatype>();
+there are some builtin methods in list 
+ 	remove() -remove the value
+	removeAt() - remove based on the index
+	removeAll()-give certain condition
+	removeRange()-certain range it will be remove
+	clear()-remove all the elements in the list
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<update<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   count
+   capacity
+   sort()
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Stack <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+LIFO
+push()-adding the element
+pop()-deleting the element
+peak()-top most element in the stack
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Queue <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+FIFO
+enqueue()-adding the element
+dequeue()-deleting the element
+peak()-displaying the top element
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Linked List <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+

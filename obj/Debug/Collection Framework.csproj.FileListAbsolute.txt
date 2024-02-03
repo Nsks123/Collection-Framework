@@ -1,0 +1,7 @@
+C:\Users\hp\Desktop\LocoBuzz\Training\Collection Framework\bin\Debug\Collection Framework.exe.config
+C:\Users\hp\Desktop\LocoBuzz\Training\Collection Framework\bin\Debug\Collection Framework.exe
+C:\Users\hp\Desktop\LocoBuzz\Training\Collection Framework\bin\Debug\Collection Framework.pdb
+C:\Users\hp\Desktop\LocoBuzz\Training\Collection Framework\obj\Debug\Collection Framework.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\LocoBuzz\Training\Collection Framework\obj\Debug\Collection Framework.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\LocoBuzz\Training\Collection Framework\obj\Debug\Collection Framework.exe
+C:\Users\hp\Desktop\LocoBuzz\Training\Collection Framework\obj\Debug\Collection Framework.pdb
