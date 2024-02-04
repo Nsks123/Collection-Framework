@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-
-
+using System.Collections;
 
 
 namespace Collection_Framework
@@ -11,48 +9,33 @@ namespace Collection_Framework
     {
         static void Main(string[] args)
         {
-            List<String> list= new List<string>();
-            list.Add("ramesh");
-            list.Add("hyma");
-            list.Add("mahesh");
-            list.Add("sai");
-            list.Add("sunil");
-            list.Add("nallam");
-            Console.WriteLine("The elements present after adding: ");
-            foreach (var item in list)
+            Stack stack = new Stack();
+            stack.Push(1);
+            stack.Push("sunil");
+            stack.Push(2);
+            stack.Push("kumar");
+            stack.Push(3);
+            stack.Push("nallam");
+            Console.WriteLine("The elements present after push: ");
+            foreach (var item in stack)
             {
                 Console.WriteLine(item);
             }
-            list.Remove("sunil");
-            Console.WriteLine("elements present after remove: ");
-            foreach (var item in list)
+            stack.Pop();
+            Console.WriteLine("The elements present after pop: ");
+            foreach (var item in stack)
             {
                 Console.WriteLine(item);
             }
-            Console.WriteLine("capacity of the list is "+list.Capacity);
-            list.RemoveAt(1);
-            Console.WriteLine("elements present after removeat: ");
-            foreach (var item in list)
+            stack.Peek();
+            Console.WriteLine("The elements present after peek is : {0} ", stack.Peek());
+            if (stack.Contains("sunil") == true)
             {
-                Console.WriteLine(item);
+                Console.WriteLine("true");
             }
-            list.RemoveRange(1, 2);
-            Console.WriteLine("elements present after removerange: ");
-            foreach (var item in list)
-            {
-                Console.WriteLine(item);
-            }
-            
-            list.RemoveAll(word => word.StartsWith("r", StringComparison.OrdinalIgnoreCase));
-            Console.WriteLine("elements present after removeall: ");
-            
-            foreach (var item in list)
-            {
-                Console.WriteLine(item);
-            }
-            list.Clear();
-            Console.WriteLine("no.of items present in the list after clear: " + list.Count);
 
+            stack.Clear();
+            Console.WriteLine("The elements present  after clear: {0} ", stack.Count);
 
             Console.ReadLine();
         }
