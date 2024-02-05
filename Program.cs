@@ -5,7 +5,7 @@ class GFG
 {
     static public void Main()
     { 
-        HashSet<String> list = new HashSet<String>();
+        SortedSet<String> list = new SortedSet<String>();
 
         list.Add("sunil");
         list.Add("jash");
@@ -18,7 +18,7 @@ class GFG
         {
             Console.WriteLine(str);
         }
-        HashSet<String> set = new HashSet<String>();
+        SortedSet<String> set = new SortedSet<String>();
         set.Add("sunil");
         set.Add("anil");
         set.Add("mallikarjuna");
@@ -46,9 +46,18 @@ class GFG
         {
             Console.WriteLine(str);
         }
-        
+        var condition = list.RemoveWhere(word => word.StartsWith("s", StringComparison.OrdinalIgnoreCase));
+        var condition1 = list.RemoveWhere(word => word.StartsWith("m", StringComparison.OrdinalIgnoreCase));
+        Console.WriteLine("Elements after removewhere:");
 
-        list.Remove("mallikarjuna");
+        foreach (var word in list)
+        {
+            Console.WriteLine(word);
+        }
+
+
+
+        list.Remove("rohith");
         Console.WriteLine("Elements after remove:");
 
         foreach (string str in list)
@@ -56,7 +65,7 @@ class GFG
             Console.WriteLine(str);
         }
         list.Clear();
-        Console.WriteLine("Number of elements: "+ list.Count);
+        Console.WriteLine("Number of elements after clear: "+ list.Count);
         Console.ReadLine();
     }
 }
